@@ -3,7 +3,6 @@ import { motion } from 'framer-motion'
 import { styles } from '../styles'
 import { ComputersCanvas } from './canvas'
 
-
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
@@ -15,8 +14,8 @@ const Hero = () => {
 
         <div className={`${styles.heroHeadText} text-white`}>
           <h1>Hi, I'm <span className='text-[#915eff]'>Harsh</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>FullStack Developer</p>
-          {/* <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop many websites <br className='sm:block hidden' /> and web applications</p> */}
+          {/* <p className={`${styles.heroSubText} mt-2 text-white-100`}>FullStack Developer</p> */}
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop many websites and web <br className='sm:block hidden' /> applications</p>
         </div>
       </div>
       <ComputersCanvas />
